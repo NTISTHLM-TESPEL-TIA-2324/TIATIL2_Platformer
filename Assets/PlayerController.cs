@@ -10,6 +10,9 @@ public class PlayerController : MonoBehaviour
   [SerializeField]
   float jumpForce = 100;
 
+  [SerializeField]
+  Transform groundCheck;
+
   bool mayJump = true;
 
   // Start is called before the first frame update
